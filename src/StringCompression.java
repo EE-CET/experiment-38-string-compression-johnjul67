@@ -19,7 +19,7 @@ public class StringCompression
                                 count = 1;
                         }
                 }
-                if (compressed.length()<s.length())
+                if (compressed.length()<=s.length())
                         System.out.println(compressed.toString());
                 else
                         System.out.println(s);
